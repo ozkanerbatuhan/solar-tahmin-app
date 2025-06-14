@@ -1,0 +1,104 @@
+{
+  "navbar": {
+    "home": "Ana Sayfa",
+    "dashboard": "Dashboard",
+    "dataimport": "Veri İçe Aktar",
+    "statistics": "İstatistikler"
+  },
+  "dashboard": {
+    "title": "Solar Enerji Tahmin Dashboard",
+    "metrics": {
+      "title": "Performans Metrikleri",
+      "dailyAverage": "Günlük Ortalama Üretim",
+      "monthlyProduction": "Aylık Toplam Üretim",
+      "efficiencyRate": "Verimlilik Oranı",
+      "accuracy": "Tahmin Doğruluğu",
+      "lastUpdate": "Son güncelleme"
+    },
+    "charts": {
+      "title": "Üretim Grafikleri",
+      "hourly": "Saatlik",
+      "weekly": "Haftalık",
+      "predictedProduction": "Tahmin Edilen Üretim",
+      "actualProduction": "Gerçek Üretim",
+      "dailyProduction": "Günlük Üretim",
+      "production": "Üretim",
+      "hour": "Saat",
+      "day": "Gün",
+      "lastUpdate": "Son güncelleme"
+    },
+    "dataUpload": {
+      "title": "Veri Yükleme",
+      "description": "Güneş enerji üretim verilerinizi CSV veya Excel formatında yükleyerek tahmin modelimizin doğruluğunu artırabilirsiniz.",
+      "selectFile": "Dosya Seçin",
+      "supportedFormats": "Desteklenen formatlar: CSV, Excel (.xls, .xlsx)",
+      "upload": "Dosyayı Yükle",
+      "uploading": "Yükleniyor...",
+      "preview": "Önizleme",
+      "selectFileError": "Lütfen bir dosya seçin.",
+      "fileSizeError": "Dosya boyutu çok büyük. Maksimum 10MB.",
+      "fileTypeError": "Lütfen geçerli bir CSV veya Excel dosyası seçin.",
+      "uploadSuccess": "Dosya başarıyla yüklendi ve işlendi!",
+      "dataFormat": "Veri Formatı",
+      "requiredColumns": "Yüklediğiniz dosyada aşağıdaki sütunlar bulunmalıdır:",
+      "dateColumn": "Tarih (YYYY-MM-DD formatında)",
+      "hourColumn": "Saat (0-23 arası tam sayı)",
+      "productionColumn": "Üretim (kWh cinsinden)",
+      "temperatureColumn": "Sıcaklık (opsiyonel, Celsius cinsinden)",
+      "irradianceColumn": "Işınım (opsiyonel, W/m² cinsinden)",
+      "uploadedDataStats": "Yüklenen Veri İstatistikleri",
+      "totalData": "Toplam Veri Sayısı:",
+      "dateRange": "Kapsanan Tarih Aralığı:",
+      "records": "kayıt",
+      "filePreview": "Dosya Önizleme",
+      "first5Rows": "İlk 5 Satır:",
+      "previewChart": "Ön İzleme Grafiği:",
+      "hourlyData": "24 Saatlik Üretim Verisi",
+      "close": "Kapat",
+      "uploadThisData": "Bu Verileri Yükle"
+    },
+    "weather": {
+      "title": "Hava Durumu",
+      "humidity": "Nem",
+      "wind": "Rüzgar",
+      "irradiance": "Güneş Işınımı",
+      "lastUpdate": "Son güncelleme"
+    }
+  },
+  "units": {
+    "kwh": "kWh",
+    "percentage": "%",
+    "celsius": "°C",
+    "windSpeed": "km/s",
+    "irradiance": "W/m²"
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "noData": "Henüz veri yok. Lütfen bir tarih seçin veya veri yükleyin.",
+    "error": "Hata",
+    "success": "Başarılı",
+    "note": "Not",
+    "sampleRows": "Örnek olarak ilk 10 satır gösterilmektedir."
+  },
+  "dateSelection": {
+    "selectDate": "Tarih Seçin",
+    "startDate": "Başlangıç Tarihi",
+    "endDate": "Bitiş Tarihi",
+    "apply": "Uygula",
+    "cancel": "İptal",
+    "today": "Bugün",
+    "yesterday": "Dün",
+    "lastWeek": "Son Hafta",
+    "lastMonth": "Son Ay",
+    "custom": "Özel"
+  },
+  "weatherConditions": {
+    "sunny": "Güneşli",
+    "partlyCloudy": "Parçalı Bulutlu",
+    "cloudy": "Bulutlu",
+    "rainy": "Yağmurlu",
+    "snowy": "Karlı",
+    "stormy": "Fırtınalı",
+    "foggy": "Sisli"
+  }
+} 

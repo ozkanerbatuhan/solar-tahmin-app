@@ -1,0 +1,104 @@
+{
+  "navbar": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "dataimport": "Import Data",
+    "statistics": "Statistics"
+  },
+  "dashboard": {
+    "title": "Solar Energy Prediction Dashboard",
+    "metrics": {
+      "title": "Performance Metrics",
+      "dailyAverage": "Daily Average Production",
+      "monthlyProduction": "Monthly Total Production",
+      "efficiencyRate": "Efficiency Rate",
+      "accuracy": "Prediction Accuracy",
+      "lastUpdate": "Last update"
+    },
+    "charts": {
+      "title": "Production Charts",
+      "hourly": "Hourly",
+      "weekly": "Weekly",
+      "predictedProduction": "Predicted Production",
+      "actualProduction": "Actual Production",
+      "dailyProduction": "Daily Production",
+      "production": "Production",
+      "hour": "Hour",
+      "day": "Day",
+      "lastUpdate": "Last update"
+    },
+    "dataUpload": {
+      "title": "Data Upload",
+      "description": "Upload your solar energy production data in CSV or Excel format to improve the accuracy of our prediction model.",
+      "selectFile": "Select File",
+      "supportedFormats": "Supported formats: CSV, Excel (.xls, .xlsx)",
+      "upload": "Upload File",
+      "uploading": "Uploading...",
+      "preview": "Preview",
+      "selectFileError": "Please select a file.",
+      "fileSizeError": "File size is too large. Maximum 10MB.",
+      "fileTypeError": "Please select a valid CSV or Excel file.",
+      "uploadSuccess": "File uploaded and processed successfully!",
+      "dataFormat": "Data Format",
+      "requiredColumns": "Your uploaded file should contain the following columns:",
+      "dateColumn": "Date (in YYYY-MM-DD format)",
+      "hourColumn": "Hour (integer between 0-23)",
+      "productionColumn": "Production (in kWh)",
+      "temperatureColumn": "Temperature (optional, in Celsius)",
+      "irradianceColumn": "Irradiance (optional, in W/m²)",
+      "uploadedDataStats": "Uploaded Data Statistics",
+      "totalData": "Total Data Count:",
+      "dateRange": "Date Range Covered:",
+      "records": "records",
+      "filePreview": "File Preview",
+      "first5Rows": "First 5 Rows:",
+      "previewChart": "Preview Chart:",
+      "hourlyData": "24 Hour Production Data",
+      "close": "Close",
+      "uploadThisData": "Upload This Data"
+    },
+    "weather": {
+      "title": "Weather",
+      "humidity": "Humidity",
+      "wind": "Wind",
+      "irradiance": "Solar Irradiance",
+      "lastUpdate": "Last update"
+    }
+  },
+  "units": {
+    "kwh": "kWh",
+    "percentage": "%",
+    "celsius": "°C",
+    "windSpeed": "km/h",
+    "irradiance": "W/m²"
+  },
+  "common": {
+    "loading": "Loading...",
+    "noData": "No data yet. Please select a date or upload data.",
+    "error": "Error",
+    "success": "Success",
+    "note": "Note",
+    "sampleRows": "First 10 rows are shown as examples."
+  },
+  "dateSelection": {
+    "selectDate": "Select Date",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "apply": "Apply",
+    "cancel": "Cancel",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "lastWeek": "Last Week",
+    "lastMonth": "Last Month",
+    "custom": "Custom"
+  },
+  "weatherConditions": {
+    "sunny": "Sunny",
+    "partlyCloudy": "Partly Cloudy",
+    "cloudy": "Cloudy",
+    "rainy": "Rainy",
+    "snowy": "Snowy",
+    "stormy": "Stormy",
+    "foggy": "Foggy"
+  }
+} 
